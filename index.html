@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mystery Box Rewards</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="game-card">
+      <div class="brand">RHDev Gaming</div>
+
+      <h1>Mystery Box Rewards</h1>
+      <p>Open the box and reveal your reward.</p>
+
+      <div class="box-area">
+        <div id="mysteryBox" class="mystery-box">
+          <div class="box-lid"></div>
+          <div class="box-body">?</div>
+        </div>
+      </div>
+
+      <div id="rewardPopup" class="reward-popup"></div>
+
+      <button id="openButton">Open Mystery Box</button>
+
+      <h2 id="result">Your reward is hidden inside</h2>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
